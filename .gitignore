@@ -1,0 +1,6 @@
+# Ignorar a pasta .idea
+.idea/
+
+# Ignorar a pasta out
+out/
+
