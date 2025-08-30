@@ -1,15 +1,25 @@
-package scr;
+package scr.model;
 
 public class Pet  {
     private String namePet;
     private String specie;
     private int age;
+    private User owner;
 
-    public Pet(String namePet, String specie, int age){
+    public Pet(String namePet, String specie, int age, User onwer){
         this.namePet = namePet;
         this.specie = specie;
         this.age = age;
+        this.owner = onwer;
 
+    }
+
+    public User getOwner() {
+        return owner;
+    }
+
+    public void setOwner(User owner) {
+        this.owner = owner;
     }
 
     public int getAge() {
